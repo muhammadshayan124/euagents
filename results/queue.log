@@ -1,0 +1,149 @@
+=== full 01:43:38
+ ai-01: retrieval_miss (70.1s, 3 LLM calls)
+ ai-03: success (56.4s, 3 LLM calls)
+ ai-05: success (77.9s, 3 LLM calls)
+ ai-07: success (64.3s, 3 LLM calls)
+ ai-09: selection_miss (74.5s, 3 LLM calls)
+ ai-12: success (142.3s, 4 LLM calls)
+ ai-14: selection_miss (68.1s, 3 LLM calls)
+ ai-16: success (56.6s, 3 LLM calls)
+ ai-18: success (46.7s, 3 LLM calls)
+ gdpr-01: success (43.6s, 3 LLM calls)
+ gdpr-03: success (66.6s, 3 LLM calls)
+ gdpr-05: retrieval_miss (75.0s, 3 LLM calls)
+ gdpr-07: success (77.0s, 3 LLM calls)
+ gdpr-10: success (69.8s, 3 LLM calls)
+ gdpr-12: retrieval_miss (78.3s, 3 LLM calls)
+ gdpr-14: success (57.9s, 3 LLM calls)
+ gdpr-16: retrieval_miss (55.6s, 3 LLM calls)
+ gdpr-18: retrieval_miss (88.1s, 3 LLM calls)
+ dsa-01: success (63.9s, 3 LLM calls)
+ dsa-03: success (58.9s, 3 LLM calls)
+ dsa-05: success (164.6s, 4 LLM calls)
+ dsa-07: success (81.2s, 3 LLM calls)
+ dsa-10: retrieval_miss (79.9s, 3 LLM calls)
+ data-01: retrieval_miss (78.2s, 3 LLM calls)
+ data-03: success (73.0s, 3 LLM calls)
+ data-05: retrieval_miss (75.5s, 3 LLM calls)
+ nis2-02: retrieval_miss (87.0s, 3 LLM calls)
+ nis2-04: success (72.9s, 3 LLM calls)
+ cra-01: retrieval_miss (67.1s, 3 LLM calls)
+ cra-03: retrieval_miss (69.5s, 3 LLM calls)
+=== single_agent 02:21:16
+ ai-01: ungrounded_citation (31.4s, 1 LLM calls)
+ ai-03: ungrounded_citation (14.8s, 1 LLM calls)
+ ai-05: no_answer (21.8s, 1 LLM calls)
+ ai-07: ungrounded_citation (23.1s, 1 LLM calls)
+ ai-09: ungrounded_citation (14.4s, 1 LLM calls)
+ ai-12: no_answer (17.7s, 1 LLM calls)
+ ai-14: no_answer (13.7s, 1 LLM calls)
+ ai-16: ungrounded_citation (20.0s, 1 LLM calls)
+ ai-18: ungrounded_citation (8.3s, 1 LLM calls)
+ gdpr-01: success (24.2s, 1 LLM calls)
+ gdpr-03: ungrounded_citation (16.4s, 1 LLM calls)
+ gdpr-05: ungrounded_citation (18.6s, 1 LLM calls)
+ gdpr-07: ungrounded_citation (20.8s, 1 LLM calls)
+ gdpr-10: no_answer (23.3s, 1 LLM calls)
+ gdpr-12: ungrounded_citation (25.1s, 1 LLM calls)
+ gdpr-14: ungrounded_citation (18.7s, 1 LLM calls)
+ gdpr-16: no_answer (12.5s, 1 LLM calls)
+ gdpr-18: ungrounded_citation (16.8s, 1 LLM calls)
+ dsa-01: ungrounded_citation (19.3s, 1 LLM calls)
+ dsa-03: ungrounded_citation (16.6s, 1 LLM calls)
+ dsa-05: ungrounded_citation (19.1s, 1 LLM calls)
+ dsa-07: no_answer (13.9s, 1 LLM calls)
+ dsa-10: ungrounded_citation (15.2s, 1 LLM calls)
+ data-01: ungrounded_citation (17.9s, 1 LLM calls)
+ data-03: ungrounded_citation (18.3s, 1 LLM calls)
+ data-05: no_answer (15.2s, 1 LLM calls)
+ nis2-02: ungrounded_citation (15.5s, 1 LLM calls)
+ nis2-04: no_answer (17.6s, 1 LLM calls)
+ cra-01: ungrounded_citation (18.9s, 1 LLM calls)
+ cra-03: ungrounded_citation (15.4s, 1 LLM calls)
+=== no_planner 02:30:46
+ ai-01: retrieval_miss (68.5s, 2 LLM calls)
+ ai-03: retrieval_miss (62.2s, 2 LLM calls)
+ ai-05: success (39.2s, 2 LLM calls)
+ ai-07: success (25.8s, 2 LLM calls)
+ ai-09: retrieval_miss (180.7s, 3 LLM calls)
+ ai-12: success (28.1s, 2 LLM calls)
+ ai-14: retrieval_miss (37.1s, 2 LLM calls)
+ ai-16: success (142.0s, 3 LLM calls)
+ ai-18: retrieval_miss (44.4s, 2 LLM calls)
+ gdpr-01: retrieval_miss (69.8s, 2 LLM calls)
+ gdpr-03: success (64.4s, 2 LLM calls)
+ gdpr-05: retrieval_miss (56.8s, 2 LLM calls)
+ gdpr-07: retrieval_miss (63.5s, 2 LLM calls)
+ gdpr-10: retrieval_miss (170.2s, 3 LLM calls)
+ gdpr-12: retrieval_miss (72.3s, 2 LLM calls)
+ gdpr-14: success (38.2s, 2 LLM calls)
+ gdpr-16: retrieval_miss (61.4s, 2 LLM calls)
+ gdpr-18: success (80.7s, 2 LLM calls)
+ dsa-01: success (44.2s, 2 LLM calls)
+ dsa-03: retrieval_miss (60.8s, 2 LLM calls)
+ dsa-05: success (71.5s, 2 LLM calls)
+ dsa-07: success (59.6s, 2 LLM calls)
+ dsa-10: retrieval_miss (70.1s, 2 LLM calls)
+ data-01: retrieval_miss (69.7s, 2 LLM calls)
+ data-03: success (36.3s, 2 LLM calls)
+ data-05: retrieval_miss (54.6s, 2 LLM calls)
+ nis2-02: success (134.1s, 4 LLM calls)
+ nis2-04: success (74.7s, 2 LLM calls)
+ cra-01: retrieval_miss (66.7s, 2 LLM calls)
+ cra-03: success (79.2s, 2 LLM calls)
+=== no_verifier 03:06:49
+ ai-01: retrieval_miss (39.8s, 3 LLM calls)
+ ai-03: success (32.5s, 3 LLM calls)
+ ai-05: success (33.9s, 3 LLM calls)
+ ai-07: success (25.5s, 3 LLM calls)
+ ai-09: selection_miss (28.9s, 3 LLM calls)
+ ai-12: success (119.1s, 4 LLM calls)
+ ai-14: selection_miss (56.1s, 3 LLM calls)
+ ai-16: success (51.7s, 3 LLM calls)
+ ai-18: success (16.3s, 3 LLM calls)
+ gdpr-01: success (39.2s, 3 LLM calls)
+ gdpr-03: success (47.7s, 3 LLM calls)
+ gdpr-05: retrieval_miss (32.3s, 3 LLM calls)
+ gdpr-07: success (41.1s, 3 LLM calls)
+ gdpr-10: success (28.3s, 3 LLM calls)
+ gdpr-12: retrieval_miss (37.7s, 3 LLM calls)
+ gdpr-14: success (30.2s, 3 LLM calls)
+ gdpr-16: retrieval_miss (28.9s, 3 LLM calls)
+ gdpr-18: retrieval_miss (39.3s, 3 LLM calls)
+ dsa-01: success (30.9s, 3 LLM calls)
+ dsa-03: success (25.2s, 3 LLM calls)
+ dsa-05: success (38.3s, 3 LLM calls)
+ dsa-07: success (57.1s, 3 LLM calls)
+ dsa-10: retrieval_miss (36.9s, 3 LLM calls)
+ data-01: retrieval_miss (32.8s, 3 LLM calls)
+ data-03: success (35.0s, 3 LLM calls)
+ data-05: retrieval_miss (29.4s, 3 LLM calls)
+ nis2-02: retrieval_miss (52.3s, 3 LLM calls)
+ nis2-04: success (33.0s, 3 LLM calls)
+ cra-01: retrieval_miss (35.8s, 3 LLM calls)
+ cra-03: retrieval_miss (117.5s, 4 LLM calls)
+=== all done 03:28:05
++-----------------------------------------------------------------------------+
+|       |    | succ… |       |       |       |       |       |        |       |
+|       |    | (95%  |       |       |       |       |       |        | LLM   |
+| conf… | n  | CI)   | no_a… | retr… | sele… | ungr… | wron… | s/task | calls |
+|-------+----+-------+-------+-------+-------+-------+-------+--------+-------|
+| full  | 30 | 57%   | 0     | 11    | 2     | 0     | 0     | 75     | 3.1   |
+|       |    | (39%… |       |       |       |       |       |        |       |
+| no_p… | 30 | 47%   | 0     | 16    | 0     | 0     | 0     | 71     | 2.2   |
+|       |    | (30%… |       |       |       |       |       |        |       |
+| no_v… | 30 | 57%   | 0     | 11    | 2     | 0     | 0     | 42     | 3.1   |
+|       |    | (39%… |       |       |       |       |       |        |       |
+| sing… | 30 | 3%    | 8     | 0     | 0     | 21    | 0     | 18     | 1.0   |
+|       |    | (1%-… |       |       |       |       |       |        |       |
++-----------------------------------------------------------------------------+
+full vs no_planner: n=30 p=0.508  [('full_only', 6), ('no_planner_only', 3)]
+full vs no_verifier: n=30 p=1.000  [('full_only', 0), ('no_verifier_only', 0)]
+full vs single_agent: n=30 p=0.000  [('full_only', 16), ('single_agent_only', 
+0)]
+no_planner vs no_verifier: n=30 p=0.508  [('no_planner_only', 3), 
+('no_verifier_only', 6)]
+no_planner vs single_agent: n=30 p=0.001  [('no_planner_only', 14), 
+('single_agent_only', 1)]
+no_verifier vs single_agent: n=30 p=0.000  [('no_verifier_only', 16), 
+('single_agent_only', 0)]

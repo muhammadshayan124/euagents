@@ -1,0 +1,67 @@
+{"id":"ai-01","gold":["AI:5"],"question":"Is it forbidden to use AI that detects the emotional state of employees at work?","evidence":"infer emotions of a natural person"}
+{"id":"ai-02","gold":["AI:5"],"question":"Under what conditions may police use live facial recognition in public places?","evidence":"publicly accessible spaces for the purposes of law enforcement"}
+{"id":"ai-03","gold":["AI:50"],"question":"Do people have to be told that they are talking to a chatbot rather than a human?","evidence":"interacting with an AI system"}
+{"id":"ai-04","gold":["AI:50"],"question":"What must be disclosed about synthetic images or videos that look like real people?","evidence":"deep fake"}
+{"id":"ai-05","gold":["AI:6"],"question":"When does an AI component inside a regulated product count as high risk?","evidence":"safety component"}
+{"id":"ai-06","gold":["AI:9"],"question":"What ongoing process must providers run to identify and reduce hazards of high-risk systems?","evidence":"risk management system"}
+{"id":"ai-07","gold":["AI:10"],"question":"What are the quality rules for the data used to build high-risk models?","evidence":"training, validation and testing data sets"}
+{"id":"ai-08","gold":["AI:14"],"question":"How must a high-risk system be designed so that people can supervise and stop it?","evidence":"human oversight"}
+{"id":"ai-09","gold":["AI:99"],"question":"How large can the penalty be for deploying a banned AI practice?","evidence":"EUR 35 000 000"}
+{"id":"ai-10","gold":["AI:53"],"question":"What documentation must the makers of large foundation models hand to the regulator?","evidence":"technical documentation of the model"}
+{"id":"ai-11","gold":["AI:55"],"question":"What extra duties apply to foundation models that pose broad societal danger?","evidence":"model evaluation"}
+{"id":"ai-12","gold":["AI:4"],"question":"Does a company have to train its staff who operate AI tools?","evidence":"AI literacy"}
+{"id":"ai-13","gold":["AI:27"],"question":"Who has to assess the effect on people's fundamental rights before putting a high-risk system into use?","evidence":"fundamental rights impact assessment"}
+{"id":"ai-14","gold":["AI:43"],"question":"Which procedure proves a high-risk system meets the rules before it can be sold?","evidence":"conformity assessment procedure"}
+{"id":"ai-15","gold":["AI:73"],"question":"When must a provider tell the authorities that a high-risk system caused serious harm?","evidence":"serious incident"}
+{"id":"ai-16","gold":["AI:86"],"question":"Can a person demand an explanation of a decision that an AI system helped make about them?","evidence":"clear and meaningful explanations"}
+{"id":"ai-17","gold":["AI:12"],"question":"Must high-risk AI systems keep automatic logs of what happens while they run?","evidence":"automatic recording of events"}
+{"id":"ai-18","gold":["AI:113"],"question":"From what date do the rules of this regulation start to apply in general?","evidence":"shall apply from 2 August 2026"}
+{"id":"ai-19","gold":["AI:3"],"question":"How is an artificial intelligence system defined for the purposes of the law?","evidence":"machine-based system that is designed to operate with varying levels of autonomy"}
+{"id":"ai-20","gold":["AI:26"],"question":"What are the obligations of organisations that use, but did not build, a high-risk AI system?","evidence":"deployers of high-risk AI systems shall"}
+{"id":"gdpr-01","gold":["GDPR:17"],"question":"When can an individual insist that a company deletes their personal information?","evidence":"erasure of personal data concerning him or her without undue delay"}
+{"id":"gdpr-02","gold":["GDPR:33"],"question":"How quickly must a company report a data breach to the regulator?","evidence":"72 hours"}
+{"id":"gdpr-03","gold":["GDPR:83"],"question":"What is the highest possible fine for the most serious data protection infringements?","evidence":"20 000 000 EUR"}
+{"id":"gdpr-04","gold":["GDPR:6"],"question":"On what legal grounds is it permitted to handle personal data at all?","evidence":"processing shall be lawful only if and to the extent that at least one of the following applies"}
+{"id":"gdpr-05","gold":["GDPR:7"],"question":"Can a person take back the permission they gave for their data to be used?","evidence":"withdraw his or her consent"}
+{"id":"gdpr-06","gold":["GDPR:35"],"question":"In which situations must a risk assessment of a data processing operation be done in advance?","evidence":"data protection impact assessment"}
+{"id":"gdpr-07","gold":["GDPR:37"],"question":"When is an organisation obliged to appoint a person responsible for monitoring data protection compliance?","evidence":"designate a data protection officer"}
+{"id":"gdpr-08","gold":["GDPR:22"],"question":"Do individuals have a right not to be subject to decisions made purely by an algorithm?","evidence":"solely on automated processing"}
+{"id":"gdpr-09","gold":["GDPR:20"],"question":"Can I receive my data in a reusable electronic form and take it to another service?","evidence":"machine-readable format"}
+{"id":"gdpr-10","gold":["GDPR:15"],"question":"What can I ask a company to tell me about the data it holds about me?","evidence":"right to obtain from the controller confirmation"}
+{"id":"gdpr-11","gold":["GDPR:44"],"question":"What is the general rule when personal data is sent to a country outside the EU?","evidence":"third country or to an international organisation"}
+{"id":"gdpr-12","gold":["GDPR:28"],"question":"What must a company make sure of before hiring a service provider to handle personal data for it?","evidence":"sufficient guarantees to implement appropriate technical and organisational measures"}
+{"id":"gdpr-13","gold":["GDPR:25"],"question":"Must privacy protections be built into products from the start?","evidence":"data protection by design"}
+{"id":"gdpr-14","gold":["GDPR:9"],"question":"Why is handling data about health, religion or ethnicity subject to a general prohibition?","evidence":"revealing racial or ethnic origin"}
+{"id":"gdpr-15","gold":["GDPR:13"],"question":"What must people be told at the time their data is collected from them?","evidence":"identity and the contact details of the controller"}
+{"id":"gdpr-16","gold":["GDPR:30"],"question":"Do companies need to keep an internal register of their data handling activities?","evidence":"records of processing activities"}
+{"id":"gdpr-17","gold":["GDPR:3"],"question":"Does the law reach a company outside Europe that sells to people in the EU?","evidence":"offering of goods or services"}
+{"id":"gdpr-18","gold":["GDPR:5"],"question":"Which core principles, such as collecting only what is needed, govern all personal data processing?","evidence":"data minimisation"}
+{"id":"gdpr-19","gold":["GDPR:8"],"question":"At what age can a child agree to an online service using their data without a parent?","evidence":"at least 16 years old"}
+{"id":"gdpr-20","gold":["GDPR:21"],"question":"Can I tell a company to stop using my data for advertising mail?","evidence":"direct marketing"}
+{"id":"dsa-01","gold":["DSA:16"],"question":"How must hosting services let people flag content they consider illegal?","evidence":"mechanisms in place to allow any individual or entity to notify them"}
+{"id":"dsa-02","gold":["DSA:34"],"question":"What must the largest platforms assess about the harms their service might cause to society?","evidence":"systemic risks"}
+{"id":"dsa-03","gold":["DSA:17"],"question":"Must a platform explain to a user why their post was removed or restricted?","evidence":"statement of reasons"}
+{"id":"dsa-04","gold":["DSA:25"],"question":"Are interfaces that trick users into choices they did not intend prohibited?","evidence":"deceives or manipulates"}
+{"id":"dsa-05","gold":["DSA:26"],"question":"What must an ad on a platform reveal about who paid for it?","evidence":"on whose behalf the advertisement is presented"}
+{"id":"dsa-06","gold":["DSA:6"],"question":"When is a company storing user content not liable for what users post?","evidence":"actual knowledge of illegal activity"}
+{"id":"dsa-07","gold":["DSA:33"],"question":"How many monthly users make a platform one of the very large ones under this regulation?","evidence":"45 million"}
+{"id":"dsa-08","gold":["DSA:52"],"question":"What is the ceiling on fines for platforms, as a share of yearly worldwide revenue?","evidence":"6 % of the annual worldwide turnover"}
+{"id":"dsa-09","gold":["DSA:21"],"question":"Can users take a moderation dispute to an independent body outside the courts?","evidence":"out-of-court dispute settlement"}
+{"id":"dsa-10","gold":["DSA:38"],"question":"Must users be offered a way to see content recommendations that are not based on their profile?","evidence":"not based on profiling"}
+{"id":"dsa-11","gold":["DSA:40"],"question":"Under what conditions can academics get access to platform data to study systemic risks?","evidence":"vetted researchers"}
+{"id":"data-01","gold":["DATA:4"],"question":"Can the owner of a smart device get at the data that device generates?","evidence":"data cannot be directly accessed by the user from the connected product"}
+{"id":"data-02","gold":["DATA:23"],"question":"What obstacles must cloud providers remove so that customers can move to a competitor?","evidence":"switching"}
+{"id":"data-03","gold":["DATA:13"],"question":"Which contract terms imposed on a smaller business regarding data access are void as unfair?","evidence":"unilaterally imposed on another enterprise"}
+{"id":"data-04","gold":["DATA:5"],"question":"Can a user instruct the manufacturer to pass their device data on to another company?","evidence":"third party"}
+{"id":"data-05","gold":["DATA:14"],"question":"When must companies provide data to public authorities because of an emergency?","evidence":"exceptional need"}
+{"id":"data-06","gold":["DATA:29"],"question":"Are fees allowed when a customer leaves a cloud service for another?","evidence":"switching charges"}
+{"id":"nis2-01","gold":["NIS2:23"],"question":"How soon after learning of a significant incident must an early warning be sent to the authority?","evidence":"24 hours"}
+{"id":"nis2-02","gold":["NIS2:21"],"question":"What security measures must in-scope organisations take to manage their cyber risks?","evidence":"cybersecurity risk-management measures"}
+{"id":"nis2-03","gold":["NIS2:20"],"question":"Are company directors personally accountable for approving and overseeing cybersecurity measures?","evidence":"management bodies"}
+{"id":"nis2-04","gold":["NIS2:34"],"question":"What is the maximum financial penalty for the most important entities that breach their cyber obligations?","evidence":"10 000 000"}
+{"id":"nis2-05","gold":["NIS2:7"],"question":"Must each Member State adopt a national plan for cybersecurity?","evidence":"national cybersecurity strategy"}
+{"id":"cra-01","gold":["CRA:13"],"question":"How long must a manufacturer keep fixing security flaws in a connected product?","evidence":"support period"}
+{"id":"cra-02","gold":["CRA:14"],"question":"What must a manufacturer report when a weakness in its product is being used by attackers?","evidence":"actively exploited vulnerability"}
+{"id":"cra-03","gold":["CRA:28"],"question":"Which document must the maker draw up to state that the product meets the cybersecurity requirements?","evidence":"EU declaration of conformity"}
+{"id":"cra-04","gold":["CRA:64"],"question":"What is the largest fine for failing to meet the essential cybersecurity requirements?","evidence":"15 000 000"}
+{"id":"cra-05","gold":["CRA:3"],"question":"What exactly counts as a product with digital elements?","evidence":"product with digital elements"}

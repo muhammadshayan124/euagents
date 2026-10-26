@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "euagents"
+version = "0.1.0"
+description = "A multi-agent research assistant over EU digital law: LangGraph orchestration, MCP tool servers, human approval, retries, tracing and a measured catalogue of failure modes with a 1.7B local model"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "langgraph>=0.2",
+    "langchain-core>=0.3",
+    "langchain-ollama>=0.2",
+    "langchain-mcp-adapters>=0.1",
+    "mcp>=1.2",
+    "lxml>=5.0",
+    "httpx>=0.27",
+    "pydantic>=2.6",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "typer>=0.12",
+    "rich>=13.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-asyncio>=0.23", "ruff>=0.5"]
+
+[project.scripts]
+euagents = "euagents.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+asyncio_mode = "auto"
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 130
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["B905", "E501"]

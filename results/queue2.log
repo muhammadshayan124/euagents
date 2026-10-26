@@ -1,0 +1,74 @@
+run_queue2.sh: line 4: results/no_verifier.jsonl: No such file or directory
+run_queue2.sh: line 4: results/no_verifier.jsonl: No such file or directory
+run_queue2.sh: line 4: results/no_verifier.jsonl: No such file or directory
+run_queue2.sh: line 4: results/no_verifier.jsonl: No such file or directory
+run_queue2.sh: line 4: results/no_verifier.jsonl: No such file or directory
+run_queue2.sh: line 4: results/no_verifier.jsonl: No such file or directory
+run_queue2.sh: line 4: results/no_verifier.jsonl: No such file or directory
+run_queue2.sh: line 4: results/no_verifier.jsonl: No such file or directory
+=== single_agent_directive 03:28:26
+ ai-01: ungrounded_citation (64.8s, 3 LLM calls)
+ ai-03: ungrounded_citation (86.1s, 4 LLM calls)
+ ai-05: retrieval_miss (100.0s, 4 LLM calls)
+ ai-07: ungrounded_citation (41.7s, 3 LLM calls)
+ ai-09: no_answer (67.8s, 3 LLM calls)
+ ai-12: success (40.0s, 3 LLM calls)
+ ai-14: ungrounded_citation (30.7s, 2 LLM calls)
+ ai-16: success (65.6s, 4 LLM calls)
+ ai-18: no_answer (44.5s, 3 LLM calls)
+ gdpr-01: success (50.7s, 3 LLM calls)
+ gdpr-03: no_answer (29.1s, 2 LLM calls)
+ gdpr-05: no_answer (37.4s, 3 LLM calls)
+ gdpr-07: no_answer (30.4s, 2 LLM calls)
+ gdpr-10: ungrounded_citation (40.3s, 2 LLM calls)
+ gdpr-12: ungrounded_citation (61.2s, 3 LLM calls)
+ gdpr-14: success (63.4s, 3 LLM calls)
+ gdpr-16: retrieval_miss (58.8s, 3 LLM calls)
+ gdpr-18: no_answer (35.7s, 2 LLM calls)
+ dsa-01: ungrounded_citation (32.2s, 2 LLM calls)
+ dsa-03: retrieval_miss (68.5s, 4 LLM calls)
+ dsa-05: ungrounded_citation (21.9s, 3 LLM calls)
+ dsa-07: no_answer (44.9s, 3 LLM calls)
+ dsa-10: no_answer (30.1s, 2 LLM calls)
+ data-01: ungrounded_citation (58.0s, 3 LLM calls)
+ data-03: success (30.3s, 2 LLM calls)
+ data-05: ungrounded_citation (36.0s, 3 LLM calls)
+ nis2-02: no_answer (34.6s, 2 LLM calls)
+ nis2-04: no_answer (34.5s, 2 LLM calls)
+ cra-01: ungrounded_citation (43.6s, 3 LLM calls)
+ cra-03: success (33.0s, 2 LLM calls)
++-----------------------------------------------------------------------------+
+|       |    | succ… |       |       |       |       |       |        |       |
+|       |    | (95%  |       |       |       |       |       |        | LLM   |
+| conf… | n  | CI)   | no_a… | retr… | sele… | ungr… | wron… | s/task | calls |
+|-------+----+-------+-------+-------+-------+-------+-------+--------+-------|
+| full  | 30 | 57%   | 0     | 11    | 2     | 0     | 0     | 75     | 3.1   |
+|       |    | (39%… |       |       |       |       |       |        |       |
+| no_p… | 30 | 47%   | 0     | 16    | 0     | 0     | 0     | 71     | 2.2   |
+|       |    | (30%… |       |       |       |       |       |        |       |
+| no_v… | 30 | 57%   | 0     | 11    | 2     | 0     | 0     | 42     | 3.1   |
+|       |    | (39%… |       |       |       |       |       |        |       |
+| sing… | 30 | 3%    | 8     | 0     | 0     | 21    | 0     | 18     | 1.0   |
+|       |    | (1%-… |       |       |       |       |       |        |       |
+| sing… | 30 | 20%   | 10    | 3     | 0     | 11    | 0     | 47     | 2.8   |
+|       |    | (10%… |       |       |       |       |       |        |       |
++-----------------------------------------------------------------------------+
+full vs no_planner: n=30 p=0.508  [('full_only', 6), ('no_planner_only', 3)]
+full vs no_verifier: n=30 p=1.000  [('full_only', 0), ('no_verifier_only', 0)]
+full vs single_agent: n=30 p=0.000  [('full_only', 16), ('single_agent_only', 
+0)]
+full vs single_agent_directive: n=30 p=0.003  [('full_only', 12), 
+('single_agent_directive_only', 1)]
+no_planner vs no_verifier: n=30 p=0.508  [('no_planner_only', 3), 
+('no_verifier_only', 6)]
+no_planner vs single_agent: n=30 p=0.001  [('no_planner_only', 14), 
+('single_agent_only', 1)]
+no_planner vs single_agent_directive: n=30 p=0.021  [('no_planner_only', 9), 
+('single_agent_directive_only', 1)]
+no_verifier vs single_agent: n=30 p=0.000  [('no_verifier_only', 16), 
+('single_agent_only', 0)]
+no_verifier vs single_agent_directive: n=30 p=0.003  [('no_verifier_only', 12),
+('single_agent_directive_only', 1)]
+single_agent vs single_agent_directive: n=30 p=0.062  [('single_agent_only', 
+0), ('single_agent_directive_only', 5)]
+=== all done 03:52:32

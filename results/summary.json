@@ -1,0 +1,176 @@
+{
+  "configs": {
+    "full": {
+      "n": 30,
+      "success": 0.5666666666666667,
+      "ci95": [
+        0.3919700954540873,
+        0.7262276256938489
+      ],
+      "causes": {
+        "success": 17,
+        "no_answer": 0,
+        "retrieval_miss": 11,
+        "selection_miss": 2,
+        "ungrounded_citation": 0,
+        "wrong_citation": 0
+      },
+      "mean_seconds": 74.68333333333334,
+      "mean_llm_calls": 3.066666666666667,
+      "mean_tokens": 1608.7666666666667,
+      "schema_failures": 2,
+      "tool_errors": 0,
+      "verified_share": 1.0
+    },
+    "no_planner": {
+      "n": 30,
+      "success": 0.4666666666666667,
+      "ci95": [
+        0.30232127224128236,
+        0.6385798671847496
+      ],
+      "causes": {
+        "success": 14,
+        "no_answer": 0,
+        "retrieval_miss": 16,
+        "selection_miss": 0,
+        "ungrounded_citation": 0,
+        "wrong_citation": 0
+      },
+      "mean_seconds": 70.89333333333333,
+      "mean_llm_calls": 2.1666666666666665,
+      "mean_tokens": 1509.2,
+      "schema_failures": 3,
+      "tool_errors": 0,
+      "verified_share": 1.0
+    },
+    "no_verifier": {
+      "n": 30,
+      "success": 0.5666666666666667,
+      "ci95": [
+        0.3919700954540873,
+        0.7262276256938489
+      ],
+      "causes": {
+        "success": 17,
+        "no_answer": 0,
+        "retrieval_miss": 11,
+        "selection_miss": 2,
+        "ungrounded_citation": 0,
+        "wrong_citation": 0
+      },
+      "mean_seconds": 41.75666666666667,
+      "mean_llm_calls": 3.066666666666667,
+      "mean_tokens": 1612.7333333333333,
+      "schema_failures": 2,
+      "tool_errors": 0,
+      "verified_share": 1.0
+    },
+    "single_agent": {
+      "n": 30,
+      "success": 0.03333333333333333,
+      "ci95": [
+        0.0059084379948573795,
+        0.16670751396958874
+      ],
+      "causes": {
+        "success": 1,
+        "no_answer": 8,
+        "retrieval_miss": 0,
+        "selection_miss": 0,
+        "ungrounded_citation": 21,
+        "wrong_citation": 0
+      },
+      "mean_seconds": 18.15,
+      "mean_llm_calls": 1.0,
+      "mean_tokens": 506.7,
+      "schema_failures": 0,
+      "tool_errors": 0,
+      "verified_share": null
+    },
+    "single_agent_directive": {
+      "n": 30,
+      "success": 0.2,
+      "ci95": [
+        0.09504978102401235,
+        0.37306047381027446
+      ],
+      "causes": {
+        "success": 6,
+        "no_answer": 10,
+        "retrieval_miss": 3,
+        "selection_miss": 0,
+        "ungrounded_citation": 11,
+        "wrong_citation": 0
+      },
+      "mean_seconds": 47.19333333333332,
+      "mean_llm_calls": 2.7666666666666666,
+      "mean_tokens": 2214.9,
+      "schema_failures": 0,
+      "tool_errors": 14,
+      "verified_share": null
+    }
+  },
+  "paired": {
+    "full vs no_planner": {
+      "n": 30,
+      "full_only": 6,
+      "no_planner_only": 3,
+      "p": 0.5078125
+    },
+    "full vs no_verifier": {
+      "n": 30,
+      "full_only": 0,
+      "no_verifier_only": 0,
+      "p": 1.0
+    },
+    "full vs single_agent": {
+      "n": 30,
+      "full_only": 16,
+      "single_agent_only": 0,
+      "p": 3.0517578125e-05
+    },
+    "full vs single_agent_directive": {
+      "n": 30,
+      "full_only": 12,
+      "single_agent_directive_only": 1,
+      "p": 0.00341796875
+    },
+    "no_planner vs no_verifier": {
+      "n": 30,
+      "no_planner_only": 3,
+      "no_verifier_only": 6,
+      "p": 0.5078125
+    },
+    "no_planner vs single_agent": {
+      "n": 30,
+      "no_planner_only": 14,
+      "single_agent_only": 1,
+      "p": 0.0009765625
+    },
+    "no_planner vs single_agent_directive": {
+      "n": 30,
+      "no_planner_only": 9,
+      "single_agent_directive_only": 1,
+      "p": 0.021484375
+    },
+    "no_verifier vs single_agent": {
+      "n": 30,
+      "no_verifier_only": 16,
+      "single_agent_only": 0,
+      "p": 3.0517578125e-05
+    },
+    "no_verifier vs single_agent_directive": {
+      "n": 30,
+      "no_verifier_only": 12,
+      "single_agent_directive_only": 1,
+      "p": 0.00341796875
+    },
+    "single_agent vs single_agent_directive": {
+      "n": 30,
+      "single_agent_only": 0,
+      "single_agent_directive_only": 5,
+      "p": 0.0625
+    }
+  }
+}
